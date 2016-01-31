@@ -53,3 +53,9 @@ INSERT INTO `system_menu` VALUES ('50', '1', '#', '气体信息', '维护气体�
 INSERT INTO `system_menu` VALUES ('51', '0', 'fluidTools/index', '气体种类', '维护气体信息', '0', '0', '50');
 INSERT INTO `system_menu` VALUES ('52', '0', 'fluidTools/prepareImportComponentFactors', '导入气体', '维护气体信息', '0', '0', '50');
 INSERT INTO `system_menu` VALUES ('53', '0', 'fluidTools/exportComponentNames', '选择气体组分', '维护气体信息', '0', '0', '50');
+
+INSERT INTO `system_menu` VALUES ('60', '1', '#', 'VMS', '虚拟计量', '1', '0', null);
+INSERT INTO `system_menu` VALUES ('61', '0', 'block/index', '区块管理', '维护区块信息信息', '0', '0', '60');
+INSERT INTO `system_menu` VALUES ('62', '0', 'well/index', '井信息', '维护井信息', '0', '0', '60');
+INSERT INTO `system_menu` VALUES ('63', '0', 'productionData/index', '生产信息', '维护生产信息', '0', '0', '60');
+INSERT INTO `system_menu` VALUES ('64', '0', 'vms/index', 'VMS', '维护生产信息', '0', '0', '60');
