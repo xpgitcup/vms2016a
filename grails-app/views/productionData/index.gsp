@@ -36,6 +36,8 @@
 					
 						<g:sortableColumn property="temperature" title="${message(code: 'productionData.temperature.label', default: 'Temperature')}" />
 					
+						<th><g:message code="productionData.well.label" default="Well" /></th>
+					
 					</tr>
 				</thead>
 				<tbody>
@@ -54,11 +56,13 @@
 					
 						<td>${fieldValue(bean: productionDataInstance, field: "temperature")}</td>
 					
+						<td>${fieldValue(bean: productionDataInstance, field: "well")}</td>
+					
 					</tr>
 				</g:each>
 				</tbody>
 			</table>
-			<div class="pagination">
+			<div class="paginationGrails">
 				<g:paginate total="${productionDataInstanceCount ?: 0}" />
 			</div>
 		</div>
