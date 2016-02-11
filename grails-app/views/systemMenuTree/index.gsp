@@ -50,7 +50,7 @@
                     itemSubs="menuItems" 
                     itemId="id" />
                 <!--分页-->
-                <div class="pagination">
+                <div class="paginationGrails">
                     <g:paginate total="${systemMenuInstanceListCount ?: 0}" />
                 </div>
             </div>
