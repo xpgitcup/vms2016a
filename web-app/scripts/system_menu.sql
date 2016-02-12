@@ -59,3 +59,9 @@ INSERT INTO `system_menu` VALUES ('61', '0', 'block/index', '区块管理', '维
 INSERT INTO `system_menu` VALUES ('62', '0', 'well/index', '井信息', '维护井信息', '0', '0', '60');
 INSERT INTO `system_menu` VALUES ('63', '0', 'productionData/index', '生产信息', '维护生产信息', '0', '0', '60');
 INSERT INTO `system_menu` VALUES ('64', '0', 'vms/index', 'VMS', '维护生产信息', '0', '0', '60');
+
+INSERT INTO `system_menu` VALUES ('80', '2', '#', '水力学配置', '与水力学有关的配置', '5', '0', null);
+INSERT INTO `system_menu` VALUES ('81', '0', 'valueType/index', '数据类型', '数据类型', '0', '0', '80');
+INSERT INTO `system_menu` VALUES ('82', '0', 'keyWord/index', '数据字典', '数据字典', '0', '0', '80');
+INSERT INTO `system_menu` VALUES ('83', '0', 'keyWordTree/index4keyword', '树形字典', '以树形结构维护关键字', '0', '0', '80');
+INSERT INTO `system_menu` VALUES ('85', '1', 'objectMapping/index', '对象映射', '管理对象的映射关系', '0', '0', '80');
